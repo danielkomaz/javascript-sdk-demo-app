@@ -3,9 +3,9 @@ on: workflow_dispatch
 env:
   AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
   NODE_VERSION: '12.x'                # set this to the node version to use
-  RESOURCE_GROUP_NAME: 'AZ-400'
-  APP_SERVICE_PLAN: 'cloudskillsjsplan'
-  APP_SERVICE: 'cloudskillsjs'
+  RESOURCE_GROUP_NAME: 'CloudskillsTest3'
+  APP_SERVICE_PLAN: 'cloudskillsjsdkplan'
+  APP_SERVICE: 'cloudskillsjsdk'
 
 jobs:
   build-and-deploy:
